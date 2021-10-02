@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Oosthoff",
-    "description": "Oosthoff, Noordhoff exploit gemaakt door github.com/mnjake",
+    "name": "DigiSploit",
+    "description": "DigiSploit, Noordhoff exploit gemaakt door github.com/mnjake",
     "version": "1.0",
     "permissions": [
         "<all_urls>"

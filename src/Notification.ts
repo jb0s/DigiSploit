@@ -1,7 +1,7 @@
 export class Notification {
     constructor(public message: string, public good: boolean = true) {
         var elemDiv = document.createElement('div');
-        elemDiv.classList.add("oosthoff-snackbar");
+        elemDiv.classList.add("digisploit-snackbar");
         document.body.prepend(elemDiv);
 
         var sideRibbon = document.createElement('div');
@@ -18,7 +18,7 @@ export class Notification {
         textContainer.appendChild(text);
 
         var text2 = document.createElement('h3');
-        text2.classList.add("oosthoff-sub");
+        text2.classList.add("digisploit-sub");
         text2.innerHTML = good ? "Graag gedaan." : "Interacties zijn gedumpt in de console.";
         textContainer.appendChild(text2);
     }

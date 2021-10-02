@@ -1,4 +1,4 @@
-.oosthoff-snackbar {
+.digisploit-snackbar {
     position: fixed;
     z-index: 10000;
     background: #272B2F;
@@ -16,21 +16,21 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation: snackbar 5s;
 }
-.oosthoff-snackbar .side-thingy {
+.digisploit-snackbar .side-thingy {
     background: #eb4848;
     width: 5px;
     height: 100%;
     position: absolute;
     left: 0;
 }
-.oosthoff-snackbar .side-thingy.good {
+.digisploit-snackbar .side-thingy.good {
     background: #53b93e;
 }
-.oosthoff-snackbar h3 {
+.digisploit-snackbar h3 {
     margin: 0;
     margin-left: 5px;
 }
-.oosthoff-sub {
+.digisploit-sub {
     opacity: 0.5;
     padding-top: 5px;
     font-weight: normal !important;
