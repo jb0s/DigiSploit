@@ -1,0 +1,44 @@
+.oosthoff-snackbar {
+    position: fixed;
+    z-index: 10000;
+    background: #272B2F;
+    bottom: 40px;
+    left: 40px;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #fafafa;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: snackbar 5s;
+}
+.oosthoff-snackbar .side-thingy {
+    background: #eb4848;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.oosthoff-snackbar .side-thingy.good {
+    background: #53b93e;
+}
+.oosthoff-snackbar h3 {
+    margin: 0;
+    margin-left: 5px;
+}
+.oosthoff-sub {
+    opacity: 0.5;
+    padding-top: 5px;
+    font-weight: normal !important;
+}
+
+@keyframes snackbar {
+    0% { visibility: visible; opacity: 0; transform: translateX(-20px); }
+    10% { visibility: visible; opacity: 1; transform: translateX(0px); }
+    80% { visibility: visible; opacity: 1; transform: translateX(0px); }
+    100% { visibility: visible; opacity: 0; transform: translateX(-20px); }
+}
