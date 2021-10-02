@@ -1,0 +1,23 @@
+{
+  "name": "digisploit",
+  "version": "1.0.0",
+  "description": "digisploit, een Noordhoff exploit gemaakt door github.com/mnjake",
+  "main": "no",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnjake/DigiSploit.git"
+  },
+  "author": "Jake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnjake/DigiSploit/issues"
+  },
+  "homepage": "https://github.com/mnjake/DigiSploit#readme",
+  "dependencies": {
+    "common-js": "^0.3.8",
+    "typescript": "^4.4.3"
+  }
+}
