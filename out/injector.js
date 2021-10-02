@@ -1,4 +1,4 @@
-console.log("[Oosthoff Injector] Injecting Oosthoff into document...");
+console.log("[DigiSploit] Injecting DigiSploit into document...");
 
 const style = document.createElement('link');
 style.setAttribute("rel", "stylesheet");
