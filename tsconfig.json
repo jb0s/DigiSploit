@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "es5",
         "module": "es6",
-        "outDir": "out",
+        "outDir": "out/scripts",
         "sourceMap": false,
     },
     "include": [
