@@ -1,11 +1,8 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "DigiSploit",
     "description": "DigiSploit, Noordhoff exploit gemaakt door github.com/mnjake",
     "version": "1.0",
-    "permissions": [
-        "<all_urls>"
-    ],
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
@@ -14,7 +11,12 @@
         }
     ],
     "web_accessible_resources": [
-        "*.js",
-        "*.css"
-    ]
+        {
+            "resources":["*.js", "*.css"],
+            "matches":["<all_urls>"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup/popup.html"
+    }
 }
