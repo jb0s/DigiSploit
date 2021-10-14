@@ -4,5 +4,7 @@ export enum DigilinoQuestionType {
     TextEntry = "textEntryInteraction",
     MultipleToggle = "multipleToggleInteraction",
     MultipleChoice = "multipleChoiceContainer",
-    Dropdown = "dropdownInteraction"
+    Dropdown = "dropdownInteraction",
+    Practical = "practicalInteraction",
+    Connecting = "connectingItemsInteraction"
 }
